@@ -1,2 +1,8 @@
-data/
-code_ref/
+/data/
+/code_ref/
+/hybrid_ann/benchmark/round1/data_generation/de_bug_suffix/
+/hybrid_ann/benchmark/round1/data_generation/debug*/
+/hybrid_ann/benchmark/round1/data_generation/i_only_ann/
+/hybrid_ann/benchmark/round1/data_generation/gredient_free_ann/
+/hybrid_ann/benchmark/round1/data_generation/code_test/
+/hybrid_ann/benchmark/round1/debug/
