@@ -1,0 +1,9 @@
+#PBS -l walltime=08:00:00
+#PBS -l select=1:ncpus=1:mem=8gb
+#PBS -J 1-30
+
+cd $PBS_O_WORKDIR
+
+module load anaconda3/personal
+source activate env
+python 6node.py input/infile.$PBS_ARRAY_INDEX
